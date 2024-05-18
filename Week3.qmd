@@ -1,0 +1,117 @@
+---
+title: "Week 3"
+format: html
+editor: visual
+toc: true
+---
+
+# Welcome back to coding in R!
+
+![art by Allison Horst](https://madd.seas.gwu.edu/2021-Fall/class/2-data-wrangling/images/horst_monsters_tidyverse.jpeg){width="500"}
+
+R and RStudio make data cleaning fast and reproducible. The module this week is all about the dplyr package, which has lots of functions that make data wrangling fun! This week, there are a total of 8 videos to watch and each video is 10-15 min long so you can dip in and out across the week. The idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.
+
+For this reason, you should allocate \~ 3 hours to your coding this week.
+
+## Resources
+
+{{< fa file >}} [Slides](https://slides.djnavarro.net/starting-dplyr/#1)
+
+{{< fa cloud >}} [RStudio Cloud project](https://rstudio.cloud/project/1006868)
+
+{{< fa video >}} [YouTube playlist](https://www.youtube.com/playlist?list=PLRPB0ZzEYegNFsivhQWTFvKvpEc504EPH)
+
+{{< fa question >}} [Self Test challenge](https://posit.cloud/content/5592952)
+
+## Learning outcomes
+
+By the end of this module you will be able to...
+
+-   Quickly clean and `rename` variables
+-   Use `filter` to look subsets of your dataframe and arrange to order by a given variable
+-   Use `select` to make your dataframe smaller
+-   Use `mutate` to create new variables
+-   Join dataframes by row and common columns
+-   Convert data from wide to long and back again using pivot functions
+
+## dplyr, dance with data
+
+### dealing with variable names
+
+In this video, Danielle introduces the small world of words dataset and shows you how to deal with variable names.
+
+[Video 1](https://www.youtube.com/watch?v=_LiB4nUKi3o&list=PLRPB0ZzEYegNFsivhQWTFvKvpEc504EPH&index=1&t=284s)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_LiB4nUKi3o?si=_4CTcscCKyBS_NZl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### subset using filter()
+
+In this video, Danielle introduces how to subset your dataset using the `filter()` function.
+
+[Video 2](https://www.youtube.com/watch?v=WWK_VmxM5j8&list=PLRPB0ZzEYegNFsivhQWTFvKvpEc504EPH&index=2)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WWK_VmxM5j8?si=bPO_1T-OUrVJWJ7j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### sort using `arrange()`
+
+In this video, Danielle shows you how to sort your data using the `arrange()` function.
+
+[Video 3](https://www.youtube.com/watch?v=gPIOWUmpj60&list=PLRPB0ZzEYegNFsivhQWTFvKvpEc504EPH&index=3)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gPIOWUmpj60?si=X3r15klvvfNpAo_O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### make your data smaller using `select()`
+
+In this video, Danielle explains the `select()` function for selecting columns in a data set.
+
+[Video 4](https://www.youtube.com/watch?v=aI5XNRvEc4c&list=PLRPB0ZzEYegNFsivhQWTFvKvpEc504EPH&index=4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aI5XNRvEc4c?si=GX9WoQJBxk9_ErHB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### make new variables with `mutate()`
+
+In this video, Danielle talks about how to make new variables using the `mutate()` function, and also a weird digression into measurement issues in psychology.
+
+[Video 5](https://www.youtube.com/watch?v=5VpZgkN7FQA&list=PLRPB0ZzEYegNFsivhQWTFvKvpEc504EPH&index=5)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5VpZgkN7FQA?si=90wTrWjh1XCczxzX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### join data using `bind_rows()`
+
+In this video, Danielle provides an introduction to the `bind_rows()` function in dplyr.
+
+[Video 6](https://www.youtube.com/watch?v=w5H_gK_g9f8&list=PLRPB0ZzEYegNFsivhQWTFvKvpEc504EPH&index=6)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w5H_gK_g9f8?si=PjMgmt1YsxnCIWF_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### make wide data long with pivot functions
+
+In this video, Danielle's unnecessarily long ramble about `pivot_longer()` and `pivot_wider()`, wherein it is obvious that the lecturer is very tired, but also manages to talk a little more about the pipe, order of operations, and other neat things.
+
+[Video 7](https://www.youtube.com/watch?v=Hb3WdbivlkU&list=PLRPB0ZzEYegNFsivhQWTFvKvpEc504EPH&index=7)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hb3WdbivlkU?si=x6vySLQDZaH-3pcp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### joining data with `left_join()`
+
+In this video, Danielle gives a brief wrap up to the dplyr series, in which `left_join()` is briefly discussed. She also gets grumpy about sexism in language, and provides pointers to other resources.
+
+[Video 8](https://www.youtube.com/watch?v=mVKxluafTB0&list=PLRPB0ZzEYegNFsivhQWTFvKvpEc504EPH&index=8)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mVKxluafTB0?si=IL4-GkTk0hRRr7R4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>

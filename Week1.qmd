@@ -1,0 +1,147 @@
+---
+title: "Week 1"
+format: html
+editor: visual
+toc: true
+---
+
+# Welcome to coding in R!
+
+![art by Allison Horst](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/ef5356a8-a9ee-4a54-9b62-7e1c4cb9f723_rw_1920.png?h=2da8ae510b02b70f895d2a79946c5f3d){fig-align="center" width="500"}
+
+This week we are going to start by getting familiar with RMarkdown and end up reading some data into RStudio. There are a total of 10 videos to watch and each video is 10-15 min long so you can dip in and out across the week.
+
+The idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.
+
+For this reason, you should allocate \~ 3 hours to your coding this week.
+
+> NOTE: Your first learning log should include a knitted .Rmd document published to Rpubs. Don't know what that means? no problem! Danielle covers how to do that in the sharing your document video (video 7) below.
+
+## Resources
+
+{{< fa file >}} [Slides](https://slides.djnavarro.net/starting-rmarkdown/#1)
+
+{{< fa video >}} [YouTube playlist](https://www.youtube.com/playlist?list=PLRPB0ZzEYegM86awo590bP1MJjQbjdR9E)
+
+## Learning outcomes
+
+By the end of this module you will be able to...
+
+-   Find your way around RStudio and RMarkdown
+-   Read data into RStudio
+-   Use the pipe (%\>%) to string together group_by and summarise commands
+-   Write data to a .csv file
+
+## Getting started in RMarkdown
+
+### The beginning
+
+In this video, Danielle shows you how to set up an RStudio Cloud account and gives a brief intro of RMarkdown.
+
+[Video 1](https://www.youtube.com/watch?v=tuFn-sFSVgk&list=PLRPB0ZzEYegM86awo590bP1MJjQbjdR9E&index=1)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tuFn-sFSVgk?si=TX046mZCSwVLFWqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### Stating the problem
+
+In this video, Danielle talks about why word documents can be problematic and why Markdown is a good solution if you want to write about science reproducibly. She also shows you how to create a new RStudio Cloud project.
+
+[Video 2](https://www.youtube.com/watch?v=nsya5MfD-ZI&list=PLRPB0ZzEYegM86awo590bP1MJjQbjdR9E&index=2)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nsya5MfD-ZI?si=ePYMIDeXMWQQu0PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### Starting markdown
+
+In this video, Danielle shows you how to create a plain Markdown document and create some text. She shows you how to format your text with bold and italics, make lists, and add headings.
+
+[Video 3](https://www.youtube.com/watch?v=JenFssAD0OQ&list=PLRPB0ZzEYegM86awo590bP1MJjQbjdR9E&index=3)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JenFssAD0OQ?si=qVGdj6vVdp_KOU61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### More markdown
+
+In this video, Danielle shows you how to insert hyperlinks, block quotes, and nested lists into your plain Markdown document.
+
+[Video 4](https://www.youtube.com/watch?v=wEf1qOVIw_I&list=PLRPB0ZzEYegM86awo590bP1MJjQbjdR9E&index=4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wEf1qOVIw_I?si=Zr5R_S0YjbenfnVW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### RMarkdown
+
+In this video, Danielle shows you how to use RMarkdown. She shows you how to insert both text and R "chunks" and "knit" your document.
+
+[Video 5](https://www.youtube.com/watch?v=IkRXHcNNk90&list=PLRPB0ZzEYegM86awo590bP1MJjQbjdR9E&index=5)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IkRXHcNNk90?si=md3E4kvJNexac5Kf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### Custom documents
+
+In this video, Danielle shows you how to edit the yaml to change the kind of document that your Rmd knits to. She shows you how to knit to pdf, change the theme of your document and include a table of contents.
+
+[Video 6](https://www.youtube.com/watch?v=5SV23b1FveA&list=PLRPB0ZzEYegM86awo590bP1MJjQbjdR9E&index=6)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5SV23b1FveA?si=54DaasBzlWTdW-78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### Inserting equations & sharing your document
+
+In this video, Danielle shows you how to use LaTex to insert equations into your Rmd . She also shows you how to share your knitted document by publishing to RPubs.
+
+[Video 7](https://www.youtube.com/watch?v=a7rDdJ0i-Ts&list=PLRPB0ZzEYegM86awo590bP1MJjQbjdR9E&index=7)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a7rDdJ0i-Ts?si=4xp3swwrbXq5tbyP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+## Say hello to data
+
+{{< fa file >}} [Slides](https://slides.djnavarro.net/starting-readr/#1)
+
+{{< fa video >}} [YouTube playlist](https://www.youtube.com/playlist?list=PLRPB0ZzEYegPYKRLwJRh4AbWWSiIlzmC7)
+
+{{< fa cloud >}} [RStudio Cloud project](https://rstudio.cloud/project/978818)
+
+{{< fa question >}} [Self Test challenge](https://posit.cloud/content/5592952)
+
+Now that you have your head around RMarkdown, lets get some data into R.
+
+### Read and glimpse your data
+
+In this video, Danielle introduces the "reasoning" data set that she will go on to use in upcoming videos, talks about how to read data into R using `read_csv()` and view it with `print()` and `glimpse()`
+
+[Video 8](https://www.youtube.com/watch?v=lpbqlu_Sk3M&list=PLRPB0ZzEYegPYKRLwJRh4AbWWSiIlzmC7)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lpbqlu_Sk3M?si=hVWWf_yIulsQ5-7d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### What is the "pipe"?
+
+The pipe operator is a key component of the tidyverse. Here Danielle introduces the pipe along with some examples using `group_by()` and `summarise()`.
+
+[Video 9](https://www.youtube.com/watch?v=lreN5MB0G3Y&list=PLRPB0ZzEYegPYKRLwJRh4AbWWSiIlzmC7&index=2)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lreN5MB0G3Y?si=YceipCg08PQIcFZH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### How to write data
+
+A quick wrap up of the section, an example of using `write_csv()`, and pointers to more resources.
+
+[Video 10](https://www.youtube.com/watch?v=NnPVAxzoQCU&list=PLRPB0ZzEYegPYKRLwJRh4AbWWSiIlzmC7&index=3)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NnPVAxzoQCU?si=4kN5kNyDonh_ZOZd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>

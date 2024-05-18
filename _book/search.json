@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PSYC3361 internship",
+    "section": "",
+    "text": "Let’s learn to code in R\nThis book contains the coding modules (slides, videos, RStudio cloud links, self test challenges) for PSYC3361 Research Internship.\n\nhow to use this book\nThis book lives online so you might want to bookmark in your browser for easy access.\nThere is one chapter dedicated to Weeks 1-5; you can navigate the chapters using the side bar on the left.\nIn each chapter, there are links to…\n Slides\n Videos\n RStudio Cloud projects\n Self test resources\nEach week we recommend that you…\n\nwatch the videos\ndo the exercises that Danielle recommends within them\nAND test yourself by trying the self test challenges\n\n\nLearning to code is an active process. You cannot learn to code by watching someone else do it\n\nThe exercises and self test challenges are KEY LEARNING EXPERIENCES.\nPlease try and complete the WATCH part of your learning before you attend your lab. Then you can spend your lab time DOING; lab time should be spent trying the exercises and self test challenges because your tutor will be there to help when you get stuck."
+  },
+  {
+    "objectID": "Week1.html",
+    "href": "Week1.html",
+    "title": "1  Week 1",
+    "section": "",
+    "text": "2 Welcome to coding in R!\nThis week we are going to start by getting familiar with RMarkdown and end up reading some data into RStudio. There are a total of 10 videos to watch and each video is 10-15 min long so you can dip in and out across the week.\nThe idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.\nFor this reason, you should allocate ~ 3 hours to your coding this week."
+  },
+  {
+    "objectID": "Week1.html#resources",
+    "href": "Week1.html#resources",
+    "title": "1  Week 1",
+    "section": "2.1 Resources",
+    "text": "2.1 Resources\n Slides\n YouTube playlist"
+  },
+  {
+    "objectID": "Week1.html#learning-outcomes",
+    "href": "Week1.html#learning-outcomes",
+    "title": "1  Week 1",
+    "section": "2.2 Learning outcomes",
+    "text": "2.2 Learning outcomes\nBy the end of this module you will be able to…\n\nFind your way around RStudio and RMarkdown\nRead data into RStudio\nUse the pipe (%&gt;%) to string together group_by and summarise commands\nWrite data to a .csv file"
+  },
+  {
+    "objectID": "Week1.html#getting-started-in-rmarkdown",
+    "href": "Week1.html#getting-started-in-rmarkdown",
+    "title": "1  Week 1",
+    "section": "2.3 Getting started in RMarkdown",
+    "text": "2.3 Getting started in RMarkdown\n\n2.3.1 The beginning\nIn this video, Danielle shows you how to set up an RStudio Cloud account and gives a brief intro of RMarkdown.\nVideo 1\n\n\n\n\n2.3.2 Stating the problem\nIn this video, Danielle talks about why word documents can be problematic and why Markdown is a good solution if you want to write about science reproducibly. She also shows you how to create a new RStudio Cloud project.\nVideo 2\n\n\n\n\n2.3.3 Starting markdown\nIn this video, Danielle shows you how to create a plain Markdown document and create some text. She shows you how to format your text with bold and italics, make lists, and add headings.\nVideo 3\n\n\n\n\n2.3.4 More markdown\nIn this video, Danielle shows you how to insert hyperlinks, block quotes, and nested lists into your plain Markdown document.\nVideo 4\n\n\n\n\n2.3.5 RMarkdown\nIn this video, Danielle shows you how to use RMarkdown. She shows you how to insert both text and R “chunks” and “knit” your document.\nVideo 5\n\n\n\n\n2.3.6 Custom documents\nIn this video, Danielle shows you how to edit the yaml to change the kind of document that your Rmd knits to. She shows you how to knit to pdf, change the theme of your document and include a table of contents.\nVideo 6\n\n\n\n\n2.3.7 Inserting equations & sharing your document\nIn this video, Danielle shows you how to use LaTex to insert equations into your Rmd . She also shows you how to share your knitted document by publishing to RPubs.\nVideo 7"
+  },
+  {
+    "objectID": "Week1.html#say-hello-to-data",
+    "href": "Week1.html#say-hello-to-data",
+    "title": "1  Week 1",
+    "section": "2.4 Say hello to data",
+    "text": "2.4 Say hello to data\n Slides\n YouTube playlist\n RStudio Cloud project\n Self Test challenge\nNow that you have your head around RMarkdown, lets get some data into R.\n\n2.4.1 Read and glimpse your data\nIn this video, Danielle introduces the “reasoning” data set that she will go on to use in upcoming videos, talks about how to read data into R using read_csv() and view it with print() and glimpse()\nVideo 8\n\n\n\n\n2.4.2 What is the “pipe”?\nThe pipe operator is a key component of the tidyverse. Here Danielle introduces the pipe along with some examples using group_by() and summarise().\nVideo 9\n\n\n\n\n2.4.3 How to write data\nA quick wrap up of the section, an example of using write_csv(), and pointers to more resources.\nVideo 10"
+  },
+  {
+    "objectID": "Week2.html",
+    "href": "Week2.html",
+    "title": "2  Week 2",
+    "section": "",
+    "text": "3 Welcome back to coding in R!\nThis week we are going explore one of the most powerful functions of R, that is data visualisation. The ggplot package has revolutionised how we visualise data, making it really easy to plot raw data (by participant or trial) and summarised data, in a way that is reproducible.\nThis week, there are a total of 8 videos to watch and each video is 10-15 min long so you can dip in and out across the week.\nThe idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.\nFor this reason, you should allocate ~ 3 hours to your coding this week."
+  },
+  {
+    "objectID": "Week2.html#resources",
+    "href": "Week2.html#resources",
+    "title": "2  Week 2",
+    "section": "3.1 Resources",
+    "text": "3.1 Resources\n Slides\n RStudio Cloud project\n YouTube playlist\n Self Test challenge"
+  },
+  {
+    "objectID": "Week2.html#learning-outcomes",
+    "href": "Week2.html#learning-outcomes",
+    "title": "2  Week 2",
+    "section": "3.2 Learning outcomes",
+    "text": "3.2 Learning outcomes\nBy the end of this module you will be able to…\n\nUse the ggplot package to make informative plots\nUse colour to make your plots pretty (and more informative)\nAdd layers to your plot\nUse jitter, boxplot, and violins to illustrate data distributions\nUse facets to plot data by group"
+  },
+  {
+    "objectID": "Week2.html#data-visualisation-with-ggplot",
+    "href": "Week2.html#data-visualisation-with-ggplot",
+    "title": "2  Week 2",
+    "section": "3.3 Data visualisation with ggplot",
+    "text": "3.3 Data visualisation with ggplot\n\n3.3.1 Setting up RStudio Cloud\nIn this video, Danielle shows you how to set up an RStudio Cloud account.\nVideo 1\n\n\n\n\n3.3.2 Make a scatterplot\nIn this video, covers basic mechanics of typing R commands, and takes the learner through the process of constructing a scatterplot.\nVideo 2\n\n\n\n\n3.3.3 Writing a script\nIn this video, Danielle recreates the exact same plot as last time, but uses a script, and explains a few weird concepts like “sourcing a script” and “printing a plot object”.\nVideo 3\n\n\n\n\n3.3.4 What are aesthetics?\nIn this video, Danielle explains aesthetics in the context of ggplot.\nVideo 4\n\n\n\n\n3.3.5 Aesthetics vs parameters\nIn this video, Danielle talks about aesthetics, the difference between aesthetics and parameters, and introduces concepts behind plot layers.\nVideo 5\n\n\n\n\n3.3.6 Global and local\nIn this video, Danielle shows you that even R experts suffer from technical failures! She also talks about global and local mappings in ggplot.\nVideo 6\n\n\n\n\n3.3.7 Named and unnamed argument\nIn this video, Danielle discusses named and unnamed arguments in R.\nVideo 7\n\n\n\n\n3.3.8 Facets and prettifying\nIn this video, Danielle shows you how to split plots using facets, and gives you some tips to make plots pretty.\nVideo 8"
+  },
+  {
+    "objectID": "Week3.html",
+    "href": "Week3.html",
+    "title": "3  Week 3",
+    "section": "",
+    "text": "4 Welcome back to coding in R!\nR and RStudio make data cleaning fast and reproducible. The module this week is all about the dplyr package, which has lots of functions that make data wrangling fun! This week, there are a total of 8 videos to watch and each video is 10-15 min long so you can dip in and out across the week. The idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.\nFor this reason, you should allocate ~ 3 hours to your coding this week."
+  },
+  {
+    "objectID": "Week3.html#resources",
+    "href": "Week3.html#resources",
+    "title": "3  Week 3",
+    "section": "4.1 Resources",
+    "text": "4.1 Resources\n Slides\n RStudio Cloud project\n YouTube playlist\n Self Test challenge"
+  },
+  {
+    "objectID": "Week3.html#learning-outcomes",
+    "href": "Week3.html#learning-outcomes",
+    "title": "3  Week 3",
+    "section": "4.2 Learning outcomes",
+    "text": "4.2 Learning outcomes\nBy the end of this module you will be able to…\n\nQuickly clean and rename variables\nUse filter to look subsets of your dataframe and arrange to order by a given variable\nUse select to make your dataframe smaller\nUse mutate to create new variables\nJoin dataframes by row and common columns\nConvert data from wide to long and back again using pivot functions"
+  },
+  {
+    "objectID": "Week3.html#dplyr-dance-with-data",
+    "href": "Week3.html#dplyr-dance-with-data",
+    "title": "3  Week 3",
+    "section": "4.3 dplyr, dance with data",
+    "text": "4.3 dplyr, dance with data\n\n4.3.1 dealing with variable names\nIn this video, Danielle introduces the small world of words dataset and shows you how to deal with variable names.\nVideo 1\n\n\n\n\n4.3.2 subset using filter()\nIn this video, Danielle introduces how to subset your dataset using the filter() function.\nVideo 2\n\n\n\n\n4.3.3 sort using arrange()\nIn this video, Danielle shows you how to sort your data using the arrange() function.\nVideo 3\n\n\n\n\n4.3.4 make your data smaller using select()\nIn this video, Danielle explains the select() function for selecting columns in a data set.\nVideo 4\n\n\n\n\n4.3.5 make new variables with mutate()\nIn this video, Danielle talks about how to make new variables using the mutate() function, and also a weird digression into measurement issues in psychology.\nVideo 5\n\n\n\n\n4.3.6 join data using bind_rows()\nIn this video, Danielle provides an introduction to the bind_rows() function in dplyr.\nVideo 6\n\n\n\n\n4.3.7 make wide data long with pivot functions\nIn this video, Danielle’s unnecessarily long ramble about pivot_longer() and pivot_wider(), wherein it is obvious that the lecturer is very tired, but also manages to talk a little more about the pipe, order of operations, and other neat things.\nVideo 7\n\n\n\n\n4.3.8 joining data with left_join()\nIn this video, Danielle gives a brief wrap up to the dplyr series, in which left_join() is briefly discussed. She also gets grumpy about sexism in language, and provides pointers to other resources.\nVideo 8"
+  }
+]

@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "PSYC3361 internship"
+  author: "Jenny Richmond"
+  date: "5/18/2024"
+  chapters:
+    - index.qmd
+    - Week1.qmd
+    - Week2.qmd
+    - Week3.qmd
+    - Week4.qmd
+    - Week5.qmd
+
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+execute:
+  freeze: auto

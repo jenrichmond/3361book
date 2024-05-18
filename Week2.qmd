@@ -1,0 +1,120 @@
+---
+title: "Week 2"
+format: html
+editor: visual
+toc: true
+---
+
+# Welcome back to coding in R!
+
+![art by Allison Horst](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/9a306c0a-dac8-413d-ba2e-cc7fd4c4d5c8_rw_1920.png?h=c802991088a9623f1f7aa18c470797ee){fig-align="center" width="500"}
+
+This week we are going explore one of the most powerful functions of R, that is data visualisation. The ggplot package has revolutionised how we visualise data, making it really easy to plot raw data (by participant or trial) and summarised data, in a way that is reproducible.
+
+This week, there are a total of 8 videos to watch and each video is 10-15 min long so you can dip in and out across the week.
+
+The idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.
+
+For this reason, you should allocate \~ 3 hours to your coding this week.
+
+## Resources
+
+{{< fa file >}} [Slides](https://slides.djnavarro.net/starting-ggplot2/#1)
+
+{{< fa cloud >}} [RStudio Cloud project](https://rstudio.cloud/project/901338)
+
+{{< fa video >}} [YouTube playlist](https://www.youtube.com/playlist?list=PLRPB0ZzEYegPa4uvvAVJnr6loSKbN4wLb)
+
+{{< fa question >}} [Self Test challenge](https://posit.cloud/content/5592952)
+
+## Learning outcomes
+
+By the end of this module you will be able to...
+
+-   Use the ggplot package to make informative plots
+-   Use colour to make your plots pretty (and more informative)
+-   Add layers to your plot
+-   Use jitter, boxplot, and violins to illustrate data distributions
+-   Use facets to plot data by group
+
+## Data visualisation with ggplot
+
+### Setting up RStudio Cloud
+
+In this video, Danielle shows you how to set up an RStudio Cloud account.
+
+[Video 1](https://www.youtube.com/watch?v=t6IIJEoqPyk&list=PLRPB0ZzEYegPa4uvvAVJnr6loSKbN4wLb)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t6IIJEoqPyk?si=j6_yQ2t9UibuF-gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### Make a scatterplot
+
+In this video, covers basic mechanics of typing R commands, and takes the learner through the process of constructing a scatterplot.
+
+[Video 2](https://www.youtube.com/watch?v=6vdHGnD51F8&list=PLRPB0ZzEYegPa4uvvAVJnr6loSKbN4wLb&index=2)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6vdHGnD51F8?si=5J-xd6i6xBfSmPer" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### Writing a script
+
+In this video, Danielle recreates the exact same plot as last time, but uses a script, and explains a few weird concepts like "sourcing a script" and "printing a plot object".
+
+[Video 3](https://www.youtube.com/watch?v=9GWfb7fgMrY&list=PLRPB0ZzEYegPa4uvvAVJnr6loSKbN4wLb&index=3)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9GWfb7fgMrY?si=N5F9yt5zECchFvlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### What are aesthetics?
+
+In this video, Danielle explains aesthetics in the context of ggplot.
+
+[Video 4](https://www.youtube.com/watch?v=EgESc7oMFkE&list=PLRPB0ZzEYegPa4uvvAVJnr6loSKbN4wLb&index=4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EgESc7oMFkE?si=mmF7HpV2acRgiSFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### Aesthetics vs parameters
+
+In this video, Danielle talks about aesthetics, the difference between aesthetics and parameters, and introduces concepts behind plot layers.
+
+[Video 5](https://www.youtube.com/watch?v=etQcgtQag0o&list=PLRPB0ZzEYegPa4uvvAVJnr6loSKbN4wLb&index=5)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/etQcgtQag0o?si=iFAZ8eTKk-TNdkga" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### Global and local
+
+In this video, Danielle shows you that even R experts suffer from technical failures! She also talks about global and local mappings in ggplot.
+
+[Video 6](https://www.youtube.com/watch?v=f_wn13VfJf8&list=PLRPB0ZzEYegPa4uvvAVJnr6loSKbN4wLb&index=6)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f_wn13VfJf8?si=kKoe8NJyOMSGRM36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### Named and unnamed argument
+
+In this video, Danielle discusses named and unnamed arguments in R.
+
+[Video 7](https://www.youtube.com/watch?v=HJzy1aatMCA&list=PLRPB0ZzEYegPa4uvvAVJnr6loSKbN4wLb&index=7)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HJzy1aatMCA?si=Ihavg8VDqWSWPeaH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+### Facets and prettifying
+
+In this video, Danielle shows you how to split plots using facets, and gives you some tips to make plots pretty.
+
+[Video 8](https://www.youtube.com/watch?v=8-yxkabPsns&list=PLRPB0ZzEYegPa4uvvAVJnr6loSKbN4wLb&index=8)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8-yxkabPsns?si=Appq0DvIKOIQNR0y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>

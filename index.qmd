@@ -1,0 +1,31 @@
+# Let's learn to code in R {.unnumbered}
+
+This book contains the coding modules (slides, videos, RStudio cloud links, self test challenges) for PSYC3361 Research Internship.
+
+### how to use this book
+
+This book lives online so you might want to bookmark in your browser for easy access.
+
+There is one chapter dedicated to Weeks 1-5; you can navigate the chapters using the side bar on the left.
+
+In each chapter, there are links to...
+
+{{< fa file >}} Slides
+
+{{< fa video >}} Videos
+
+{{< fa cloud >}} RStudio Cloud projects
+
+{{< fa question >}} Self test resources
+
+Each week we recommend that you...
+
+-   watch the videos
+-   do the exercises that Danielle recommends within them
+-   AND test yourself by trying the self test challenges
+
+> *Learning to code is an active process. You cannot learn to code by watching someone else do it*
+
+The exercises and self test challenges are KEY LEARNING EXPERIENCES.
+
+Please try and complete the WATCH part of your learning before you attend your lab. Then you can spend your lab time DOING; lab time should be spent trying the exercises and self test challenges because your tutor will be there to help when you get stuck.
