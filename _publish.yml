@@ -1,4 +1,4 @@
 - source: project
   netlify:
     - id: e775e3c0-995c-470e-b78f-a2b64c49ac3c
-      url: 'https://internship-book.netlify.app/'
+      url: 'https://i-am-learning-r.netlify.app/'
