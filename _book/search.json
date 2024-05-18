@@ -63,11 +63,11 @@
     "text": "3.2 Learning outcomes\nBy the end of this module you will be able to…\n\nUse the ggplot package to make informative plots\nUse colour to make your plots pretty (and more informative)\nAdd layers to your plot\nUse jitter, boxplot, and violins to illustrate data distributions\nUse facets to plot data by group"
   },
   {
-    "objectID": "Week2.html#data-visualisation-with-ggplot",
-    "href": "Week2.html#data-visualisation-with-ggplot",
+    "objectID": "Week2.html#ggplot",
+    "href": "Week2.html#ggplot",
     "title": "2  Week 2",
-    "section": "3.3 Data visualisation with ggplot",
-    "text": "3.3 Data visualisation with ggplot\n\n3.3.1 Setting up RStudio Cloud\nIn this video, Danielle shows you how to set up an RStudio Cloud account.\nVideo 1\n\n\n\n\n3.3.2 Make a scatterplot\nIn this video, covers basic mechanics of typing R commands, and takes the learner through the process of constructing a scatterplot.\nVideo 2\n\n\n\n\n3.3.3 Writing a script\nIn this video, Danielle recreates the exact same plot as last time, but uses a script, and explains a few weird concepts like “sourcing a script” and “printing a plot object”.\nVideo 3\n\n\n\n\n3.3.4 What are aesthetics?\nIn this video, Danielle explains aesthetics in the context of ggplot.\nVideo 4\n\n\n\n\n3.3.5 Aesthetics vs parameters\nIn this video, Danielle talks about aesthetics, the difference between aesthetics and parameters, and introduces concepts behind plot layers.\nVideo 5\n\n\n\n\n3.3.6 Global and local\nIn this video, Danielle shows you that even R experts suffer from technical failures! She also talks about global and local mappings in ggplot.\nVideo 6\n\n\n\n\n3.3.7 Named and unnamed argument\nIn this video, Danielle discusses named and unnamed arguments in R.\nVideo 7\n\n\n\n\n3.3.8 Facets and prettifying\nIn this video, Danielle shows you how to split plots using facets, and gives you some tips to make plots pretty.\nVideo 8"
+    "section": "3.3 ggplot",
+    "text": "3.3 ggplot\n\n3.3.1 Setting up RStudio Cloud\nIn this video, Danielle shows you how to set up an RStudio Cloud account.\nVideo 1\n\n\n\n\n3.3.2 Make a scatterplot\nIn this video, covers basic mechanics of typing R commands, and takes the learner through the process of constructing a scatterplot.\nVideo 2\n\n\n\n\n3.3.3 Writing a script\nIn this video, Danielle recreates the exact same plot as last time, but uses a script, and explains a few weird concepts like “sourcing a script” and “printing a plot object”.\nVideo 3\n\n\n\n\n3.3.4 What are aesthetics?\nIn this video, Danielle explains aesthetics in the context of ggplot.\nVideo 4\n\n\n\n\n3.3.5 Aesthetics vs parameters\nIn this video, Danielle talks about aesthetics, the difference between aesthetics and parameters, and introduces concepts behind plot layers.\nVideo 5\n\n\n\n\n3.3.6 Global and local\nIn this video, Danielle shows you that even R experts suffer from technical failures! She also talks about global and local mappings in ggplot.\nVideo 6\n\n\n\n\n3.3.7 Named and unnamed argument\nIn this video, Danielle discusses named and unnamed arguments in R.\nVideo 7\n\n\n\n\n3.3.8 Facets and prettifying\nIn this video, Danielle shows you how to split plots using facets, and gives you some tips to make plots pretty.\nVideo 8"
   },
   {
     "objectID": "Week3.html",
@@ -133,13 +133,6 @@
     "text": "6.1 Resources\n Slides\n YouTube playlist"
   },
   {
-    "objectID": "Week5.html#installing-r",
-    "href": "Week5.html#installing-r",
-    "title": "5  Week5",
-    "section": "6.2 Installing R",
-    "text": "6.2 Installing R\n\n6.2.1 Installing R and RStudio on a Mac\nVideo 1\n\n\n\n\n6.2.2 Installing R and RStudio on Windows\nVideo 2\n\n\n\n\n6.2.3 Installing R and RStudio on Ubuntu\nVideo 3\n\n\n\n\n6.2.4 Installing and loading R packages\nVideo 4\n\n\n\n\n6.2.5 Extra info re packages on Linux\nVideo 5\n\n\n\n\n6.2.6 Installing R packages from Github\nVideo 6"
-  },
-  {
     "objectID": "Week5.html#installing-r-and-rstudio",
     "href": "Week5.html#installing-r-and-rstudio",
     "title": "5  Week 5",
@@ -152,12 +145,5 @@
     "title": "5  Week 5",
     "section": "6.3 Installing and loading R packages",
     "text": "6.3 Installing and loading R packages\nVideo 4\n\n\n\n6.3.1 Extra info re packages on Linux\nVideo 5\n\n\n\n\n6.3.2 Installing R packages from Github\nVideo 6"
-  },
-  {
-    "objectID": "Week2.html#ggplot",
-    "href": "Week2.html#ggplot",
-    "title": "2  Week 2",
-    "section": "3.3 ggplot",
-    "text": "3.3 ggplot\n\n3.3.1 Setting up RStudio Cloud\nIn this video, Danielle shows you how to set up an RStudio Cloud account.\nVideo 1\n\n\n\n\n3.3.2 Make a scatterplot\nIn this video, covers basic mechanics of typing R commands, and takes the learner through the process of constructing a scatterplot.\nVideo 2\n\n\n\n\n3.3.3 Writing a script\nIn this video, Danielle recreates the exact same plot as last time, but uses a script, and explains a few weird concepts like “sourcing a script” and “printing a plot object”.\nVideo 3\n\n\n\n\n3.3.4 What are aesthetics?\nIn this video, Danielle explains aesthetics in the context of ggplot.\nVideo 4\n\n\n\n\n3.3.5 Aesthetics vs parameters\nIn this video, Danielle talks about aesthetics, the difference between aesthetics and parameters, and introduces concepts behind plot layers.\nVideo 5\n\n\n\n\n3.3.6 Global and local\nIn this video, Danielle shows you that even R experts suffer from technical failures! She also talks about global and local mappings in ggplot.\nVideo 6\n\n\n\n\n3.3.7 Named and unnamed argument\nIn this video, Danielle discusses named and unnamed arguments in R.\nVideo 7\n\n\n\n\n3.3.8 Facets and prettifying\nIn this video, Danielle shows you how to split plots using facets, and gives you some tips to make plots pretty.\nVideo 8"
   }
 ]
