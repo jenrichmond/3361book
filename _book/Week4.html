@@ -41,6 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -141,7 +143,25 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#welcome-back-to-coding-in-r" id="toc-welcome-back-to-coding-in-r" class="nav-link active" data-scroll-target="#welcome-back-to-coding-in-r"><span class="header-section-number">5</span> Welcome back to coding in R!</a>
+  <ul class="collapse">
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources"><span class="header-section-number">5.1</span> Resources</a></li>
+  <li><a href="#project-structure" id="toc-project-structure" class="nav-link" data-scroll-target="#project-structure"><span class="header-section-number">5.2</span> Project Structure</a>
+  <ul class="collapse">
+  <li><a href="#naming-things-for-machines" id="toc-naming-things-for-machines" class="nav-link" data-scroll-target="#naming-things-for-machines"><span class="header-section-number">5.2.1</span> naming things for machines</a></li>
+  <li><a href="#naming-things-for-humans" id="toc-naming-things-for-humans" class="nav-link" data-scroll-target="#naming-things-for-humans"><span class="header-section-number">5.2.2</span> naming things for humans</a></li>
+  <li><a href="#naming-things-make-them-sortablesearchable" id="toc-naming-things-make-them-sortablesearchable" class="nav-link" data-scroll-target="#naming-things-make-them-sortablesearchable"><span class="header-section-number">5.2.3</span> naming things (make them sortable/searchable)</a></li>
+  <li><a href="#filepaths" id="toc-filepaths" class="nav-link" data-scroll-target="#filepaths"><span class="header-section-number">5.2.4</span> filepaths</a></li>
+  <li><a href="#templates" id="toc-templates" class="nav-link" data-scroll-target="#templates"><span class="header-section-number">5.2.5</span> templates</a></li>
+  <li><a href="#where-do-things-live" id="toc-where-do-things-live" class="nav-link" data-scroll-target="#where-do-things-live"><span class="header-section-number">5.2.6</span> where do things live?</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -163,8 +183,64 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="welcome-back-to-coding-in-r" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Welcome back to coding in R!</h1>
+<p>Now that you have some RMarkdown, ggplot, and dplyr functions under your belt, let’s think about how to put together a reproducible project. In this module, Danielle talks about structuring directories, naming things, file paths, templates, and README documentation. This week, there are a total of 6 videos to watch and each video is 10-15 min long so you can dip in and out across the week.</p>
+<p>The idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.</p>
+<p>For this reason, you should allocate ~ 3 hours to your coding this week.</p>
+<section id="resources" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="resources"><span class="header-section-number">5.1</span> Resources</h2>
+<p><i class="fa-solid fa-file" aria-label="file"></i> <a href="https://slides.djnavarro.net/project-structure/#1">Slides</a></p>
+<p><i class="fa-solid fa-video" aria-label="video"></i> <a href="https://www.youtube.com/playlist?list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy">YouTube playlist</a></p>
+</section>
+<section id="project-structure" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="project-structure"><span class="header-section-number">5.2</span> Project Structure</h2>
+<section id="naming-things-for-machines" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="naming-things-for-machines"><span class="header-section-number">5.2.1</span> naming things for machines</h3>
+<p>In this video, Danielle talks about how to name files in a way that the computer likes.</p>
+<p><a href="https://www.youtube.com/watch?v=u6MiDFvAs9w&amp;list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy">Video 1</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u6MiDFvAs9w?si=1x9Bp-Yaa-wWVJDD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section>
+<section id="naming-things-for-humans" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="naming-things-for-humans"><span class="header-section-number">5.2.2</span> naming things for humans</h3>
+<p>In this video, Danielle talks about how you can be strategic about naming files to make your life easier.</p>
+<p><a href="https://www.youtube.com/watch?v=qyO2yikrGug&amp;list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&amp;index=2">Video 2</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qyO2yikrGug?si=6NMN0n-EVyg1EMdt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section>
+<section id="naming-things-make-them-sortablesearchable" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="naming-things-make-them-sortablesearchable"><span class="header-section-number">5.2.3</span> naming things (make them sortable/searchable)</h3>
+<p>In this video, Danielle explains why you might want to think (just a little bit) more about how you name things</p>
+<p><a href="https://www.youtube.com/watch?v=vQl8CIU67WU&amp;list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&amp;index=3">Video 3</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vQl8CIU67WU?si=lIuIucossVmu-G2R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section>
+<section id="filepaths" class="level3" data-number="5.2.4">
+<h3 data-number="5.2.4" class="anchored" data-anchor-id="filepaths"><span class="header-section-number">5.2.4</span> filepaths</h3>
+<p>In this video, Danielle explains how file paths work and how you can use them to your advantage.</p>
+<p><a href="https://www.youtube.com/watch?v=y6LUQLUEV8g&amp;list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&amp;index=4">Video 4</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y6LUQLUEV8g?si=LEHamoqpGqCzkfzZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section>
+<section id="templates" class="level3" data-number="5.2.5">
+<h3 data-number="5.2.5" class="anchored" data-anchor-id="templates"><span class="header-section-number">5.2.5</span> templates</h3>
+<p>In this video, Danielle talks about how you can automate your project structure using a template and talk to your future self using a README file.</p>
+<p><a href="https://www.youtube.com/watch?v=zBInvQQEhuY&amp;list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&amp;index=5">Video 5</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zBInvQQEhuY?si=u8pXLdNFeluCTa7e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section>
+<section id="where-do-things-live" class="level3" data-number="5.2.6">
+<h3 data-number="5.2.6" class="anchored" data-anchor-id="where-do-things-live"><span class="header-section-number">5.2.6</span> where do things live?</h3>
+<p>In this video, Danielle asks the question of where your projects should live so you can find them at a later date</p>
+<p><a href="https://www.youtube.com/watch?v=q8cMQOt-V0Q&amp;list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&amp;index=6">Video 6</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q8cMQOt-V0Q?si=YnwkgHF4aMyVYWal" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
 
 
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

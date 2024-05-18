@@ -96,5 +96,61 @@
     "title": "3  Week 3",
     "section": "4.3 dplyr, dance with data",
     "text": "4.3 dplyr, dance with data\n\n4.3.1 dealing with variable names\nIn this video, Danielle introduces the small world of words dataset and shows you how to deal with variable names.\nVideo 1\n\n\n\n\n4.3.2 subset using filter()\nIn this video, Danielle introduces how to subset your dataset using the filter() function.\nVideo 2\n\n\n\n\n4.3.3 sort using arrange()\nIn this video, Danielle shows you how to sort your data using the arrange() function.\nVideo 3\n\n\n\n\n4.3.4 make your data smaller using select()\nIn this video, Danielle explains the select() function for selecting columns in a data set.\nVideo 4\n\n\n\n\n4.3.5 make new variables with mutate()\nIn this video, Danielle talks about how to make new variables using the mutate() function, and also a weird digression into measurement issues in psychology.\nVideo 5\n\n\n\n\n4.3.6 join data using bind_rows()\nIn this video, Danielle provides an introduction to the bind_rows() function in dplyr.\nVideo 6\n\n\n\n\n4.3.7 make wide data long with pivot functions\nIn this video, Danielle’s unnecessarily long ramble about pivot_longer() and pivot_wider(), wherein it is obvious that the lecturer is very tired, but also manages to talk a little more about the pipe, order of operations, and other neat things.\nVideo 7\n\n\n\n\n4.3.8 joining data with left_join()\nIn this video, Danielle gives a brief wrap up to the dplyr series, in which left_join() is briefly discussed. She also gets grumpy about sexism in language, and provides pointers to other resources.\nVideo 8"
+  },
+  {
+    "objectID": "Week4.html",
+    "href": "Week4.html",
+    "title": "4  Week4",
+    "section": "",
+    "text": "5 Welcome back to coding in R!\nNow that you have some RMarkdown, ggplot, and dplyr functions under your belt, let’s think about how to put together a reproducible project. In this module, Danielle talks about structuring directories, naming things, file paths, templates, and README documentation. This week, there are a total of 6 videos to watch and each video is 10-15 min long so you can dip in and out across the week.\nThe idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.\nFor this reason, you should allocate ~ 3 hours to your coding this week."
+  },
+  {
+    "objectID": "Week4.html#resources",
+    "href": "Week4.html#resources",
+    "title": "4  Week4",
+    "section": "5.1 Resources",
+    "text": "5.1 Resources\n Slides\n YouTube playlist"
+  },
+  {
+    "objectID": "Week4.html#project-structure",
+    "href": "Week4.html#project-structure",
+    "title": "4  Week4",
+    "section": "5.2 Project Structure",
+    "text": "5.2 Project Structure\n\n5.2.1 naming things for machines\nIn this video, Danielle talks about how to name files in a way that the computer likes.\nVideo 1\n\n\n\n\n5.2.2 naming things for humans\nIn this video, Danielle talks about how you can be strategic about naming files to make your life easier.\nVideo 2\n\n\n\n\n5.2.3 naming things (make them sortable/searchable)\nIn this video, Danielle explains why you might want to think (just a little bit) more about how you name things\nVideo 3\n\n\n\n\n5.2.4 filepaths\nIn this video, Danielle explains how file paths work and how you can use them to your advantage.\nVideo 4\n\n\n\n\n5.2.5 templates\nIn this video, Danielle talks about how you can automate your project structure using a template and talk to your future self using a README file.\nVideo 5\n\n\n\n\n5.2.6 where do things live?\nIn this video, Danielle asks the question of where your projects should live so you can find them at a later date\nVideo 6"
+  },
+  {
+    "objectID": "Week5.html",
+    "href": "Week5.html",
+    "title": "5  Week5",
+    "section": "",
+    "text": "6 Welcome back to coding in R!\nYou have probably run out of RStudio Cloud hours now and it is time to work out how to install R and RStudio on your own machine. R is open source software so it is free to download and use, but sometimes the installation process can be a little bit painful. That is why we start this course with you working in the cloud and gradually transition to working on your machine once you have habituated to RStudio error messages a little bit.\nIn this module, Danielle walks through the process of installing R and RStudio on a PC, Mac and Ubuntu. You can pick and choose from the videos below, depending on which setup you use."
+  },
+  {
+    "objectID": "Week5.html#resources",
+    "href": "Week5.html#resources",
+    "title": "5  Week5",
+    "section": "6.1 Resources",
+    "text": "6.1 Resources\n Slides\n YouTube playlist"
+  },
+  {
+    "objectID": "Week5.html#installing-r",
+    "href": "Week5.html#installing-r",
+    "title": "5  Week5",
+    "section": "6.2 Installing R",
+    "text": "6.2 Installing R\n\n6.2.1 Installing R and RStudio on a Mac\nVideo 1\n\n\n\n\n6.2.2 Installing R and RStudio on Windows\nVideo 2\n\n\n\n\n6.2.3 Installing R and RStudio on Ubuntu\nVideo 3\n\n\n\n\n6.2.4 Installing and loading R packages\nVideo 4\n\n\n\n\n6.2.5 Extra info re packages on Linux\nVideo 5\n\n\n\n\n6.2.6 Installing R packages from Github\nVideo 6"
+  },
+  {
+    "objectID": "Week5.html#installing-r-and-rstudio",
+    "href": "Week5.html#installing-r-and-rstudio",
+    "title": "5  Week5",
+    "section": "6.2 Installing R and RStudio …",
+    "text": "6.2 Installing R and RStudio …\n\n6.2.1 … on a Mac\nVideo 1\n\n\n\n\n6.2.2 … on Windows\nVideo 2\n\n\n\n\n6.2.3 … on Ubuntu\nVideo 3"
+  },
+  {
+    "objectID": "Week5.html#installing-and-loading-r-packages",
+    "href": "Week5.html#installing-and-loading-r-packages",
+    "title": "5  Week5",
+    "section": "6.3 Installing and loading R packages",
+    "text": "6.3 Installing and loading R packages\nVideo 4\n\n\n\n6.3.1 Extra info re packages on Linux\nVideo 5\n\n\n\n\n6.3.2 Installing R packages from Github\nVideo 6"
   }
 ]

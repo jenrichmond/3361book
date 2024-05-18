@@ -1,3 +1,58 @@
 ---
 title: "Week5"
 ---
+
+
+# Welcome back to coding in R! 
+
+You have probably run out of RStudio Cloud hours now and it is time to work out how to install R and RStudio on your own machine. R is open source software so it is free to download and use, but sometimes the installation process can be a little bit painful. That is why we start this course with you working in the cloud and gradually transition to working on your machine once you have habituated to RStudio error messages a little bit. 
+
+In this module, Danielle walks through the process of installing R and RStudio on a PC, Mac and Ubuntu. You can pick and choose from the videos below, depending on which setup you use. 
+
+
+
+## Resources
+
+{{< fa file >}} [Slides](https://slides.djnavarro.net/installing-r/#1)
+
+{{< fa video >}} [YouTube playlist](https://www.youtube.com/playlist?list=PLRPB0ZzEYegOZivdelOuEn-R-XUN-DOjd)
+
+
+
+## Installing R and RStudio ...
+
+### ... on a Mac
+
+[Video 1](https://www.youtube.com/watch?v=ay25o485YXs&list=PLRPB0ZzEYegOZivdelOuEn-R-XUN-DOjd)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ay25o485YXs?si=K0n2U7KzCRR7QjGd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### ... on Windows
+
+[Video 2](https://www.youtube.com/watch?v=KAeHFzxbHTA&list=PLRPB0ZzEYegOZivdelOuEn-R-XUN-DOjd&index=2)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KAeHFzxbHTA?si=lttLjp60ojWHsyzm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### ... on Ubuntu
+
+[Video 3](https://www.youtube.com/watch?v=24TtO1fR6SI&list=PLRPB0ZzEYegOZivdelOuEn-R-XUN-DOjd&index=3)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/24TtO1fR6SI?si=85NAxPceBfT7CXGO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Installing and loading R packages
+
+[Video 4](https://www.youtube.com/watch?v=kpHZVyDvEhQ&list=PLRPB0ZzEYegOZivdelOuEn-R-XUN-DOjd&index=4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kpHZVyDvEhQ?si=sep9P3ZVe336Mbgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Extra info re packages on Linux
+
+[Video 5](https://www.youtube.com/watch?v=NvZ66dqQarg&list=PLRPB0ZzEYegOZivdelOuEn-R-XUN-DOjd&index=5)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NvZ66dqQarg?si=aCHSOKmLCwGyUBHa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Installing R packages from Github
+
+[Video 6](https://www.youtube.com/watch?v=g6NEytoggZo&list=PLRPB0ZzEYegOZivdelOuEn-R-XUN-DOjd&index=6)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g6NEytoggZo?si=Wxsg21RlZmY6toAq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -1,3 +1,72 @@
 ---
 title: "Week4"
 ---
+
+# Welcome back to coding in R! 
+
+Now that you have some RMarkdown, ggplot, and dplyr functions under your belt, let's think about how to put together a reproducible project. In this module, Danielle talks about structuring directories, naming things, file paths, templates, and README documentation. This week, there are a total of 6 videos to watch and each video is 10-15 min long so you can dip in and out across the week. 
+
+The idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.
+
+For this reason, you should allocate ~ 3 hours to your coding this week. 
+
+
+## Resources
+
+{{< fa file >}} [Slides](https://slides.djnavarro.net/project-structure/#1)
+
+
+{{< fa video >}} [YouTube playlist](https://www.youtube.com/playlist?list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy)
+
+
+
+## Project Structure
+
+### naming things for machines
+
+In this video, Danielle talks about how to name files in a way that the computer likes. 
+
+[Video 1](https://www.youtube.com/watch?v=u6MiDFvAs9w&list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u6MiDFvAs9w?si=1x9Bp-Yaa-wWVJDD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### naming things for humans
+
+In this video, Danielle talks about how you can be strategic about naming files to make your life easier.  
+
+[Video 2](https://www.youtube.com/watch?v=qyO2yikrGug&list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&index=2)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qyO2yikrGug?si=6NMN0n-EVyg1EMdt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### naming things (make them sortable/searchable)
+
+In this video, Danielle explains why you might want to think (just a little bit) more about how you name things
+
+[Video 3](https://www.youtube.com/watch?v=vQl8CIU67WU&list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&index=3)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vQl8CIU67WU?si=lIuIucossVmu-G2R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### filepaths
+
+In this video, Danielle explains how file paths work and how you can use them to your advantage. 
+
+[Video 4](https://www.youtube.com/watch?v=y6LUQLUEV8g&list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&index=4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y6LUQLUEV8g?si=LEHamoqpGqCzkfzZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### templates
+
+In this video, Danielle talks about how you can automate your project structure using a template and talk to your future self using a README file.
+
+[Video 5](https://www.youtube.com/watch?v=zBInvQQEhuY&list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&index=5)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zBInvQQEhuY?si=u8pXLdNFeluCTa7e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### where do things live?
+
+In this video, Danielle asks the question of where your projects should live so you can find them at a later date
+
+[Video 6](https://www.youtube.com/watch?v=q8cMQOt-V0Q&list=PLRPB0ZzEYegPiBteC2dRn95TX9YefYFyy&index=6)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q8cMQOt-V0Q?si=YnwkgHF4aMyVYWal" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
