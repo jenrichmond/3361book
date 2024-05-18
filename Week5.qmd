@@ -1,14 +1,16 @@
 ---
 title: "Week5"
+format: html
+editor: visual
+toc: true
 ---
 
 
-# Welcome back to coding in R! 
+# Drama-free installation
 
 You have probably run out of RStudio Cloud hours now and it is time to work out how to install R and RStudio on your own machine. R is open source software so it is free to download and use, but sometimes the installation process can be a little bit painful. That is why we start this course with you working in the cloud and gradually transition to working on your machine once you have habituated to RStudio error messages a little bit. 
 
 In this module, Danielle walks through the process of installing R and RStudio on a PC, Mac and Ubuntu. You can pick and choose from the videos below, depending on which setup you use. 
-
 
 
 ## Resources
@@ -16,7 +18,6 @@ In this module, Danielle walks through the process of installing R and RStudio o
 {{< fa file >}} [Slides](https://slides.djnavarro.net/installing-r/#1)
 
 {{< fa video >}} [YouTube playlist](https://www.youtube.com/playlist?list=PLRPB0ZzEYegOZivdelOuEn-R-XUN-DOjd)
-
 
 
 ## Installing R and RStudio ...
