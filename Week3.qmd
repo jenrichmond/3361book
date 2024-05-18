@@ -5,7 +5,7 @@ editor: visual
 toc: true
 ---
 
-# Welcome back to coding in R!
+# Data wrangling
 
 ![art by Allison Horst](https://madd.seas.gwu.edu/2021-Fall/class/2-data-wrangling/images/horst_monsters_tidyverse.jpeg){width="500"}
 

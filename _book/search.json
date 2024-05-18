@@ -46,7 +46,7 @@
     "href": "Week2.html",
     "title": "2  Week 2",
     "section": "",
-    "text": "3 Welcome back to coding in R!\nThis week we are going explore one of the most powerful functions of R, that is data visualisation. The ggplot package has revolutionised how we visualise data, making it really easy to plot raw data (by participant or trial) and summarised data, in a way that is reproducible.\nThis week, there are a total of 8 videos to watch and each video is 10-15 min long so you can dip in and out across the week.\nThe idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.\nFor this reason, you should allocate ~ 3 hours to your coding this week."
+    "text": "3 Data visualisation\nThis week we are going explore one of the most powerful functions of R, that is data visualisation. The ggplot package has revolutionised how we visualise data, making it really easy to plot raw data (by participant or trial) and summarised data, in a way that is reproducible.\nThis week, there are a total of 8 videos to watch and each video is 10-15 min long so you can dip in and out across the week.\nThe idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.\nFor this reason, you should allocate ~ 3 hours to your coding this week."
   },
   {
     "objectID": "Week2.html#resources",
@@ -74,7 +74,7 @@
     "href": "Week3.html",
     "title": "3  Week 3",
     "section": "",
-    "text": "4 Welcome back to coding in R!\nR and RStudio make data cleaning fast and reproducible. The module this week is all about the dplyr package, which has lots of functions that make data wrangling fun! This week, there are a total of 8 videos to watch and each video is 10-15 min long so you can dip in and out across the week. The idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.\nFor this reason, you should allocate ~ 3 hours to your coding this week."
+    "text": "4 Data wrangling\nR and RStudio make data cleaning fast and reproducible. The module this week is all about the dplyr package, which has lots of functions that make data wrangling fun! This week, there are a total of 8 videos to watch and each video is 10-15 min long so you can dip in and out across the week. The idea is for you to code along with the videos, stopping and starting and troubleshooting as you go. Try the exercises Danielle recommends AND to see whether you are really getting it, have a go at the SELF TEST challenge.\nFor this reason, you should allocate ~ 3 hours to your coding this week."
   },
   {
     "objectID": "Week3.html#resources",
@@ -152,5 +152,12 @@
     "title": "5  Week 5",
     "section": "6.3 Installing and loading R packages",
     "text": "6.3 Installing and loading R packages\nVideo 4\n\n\n\n6.3.1 Extra info re packages on Linux\nVideo 5\n\n\n\n\n6.3.2 Installing R packages from Github\nVideo 6"
+  },
+  {
+    "objectID": "Week2.html#ggplot",
+    "href": "Week2.html#ggplot",
+    "title": "2  Week 2",
+    "section": "3.3 ggplot",
+    "text": "3.3 ggplot\n\n3.3.1 Setting up RStudio Cloud\nIn this video, Danielle shows you how to set up an RStudio Cloud account.\nVideo 1\n\n\n\n\n3.3.2 Make a scatterplot\nIn this video, covers basic mechanics of typing R commands, and takes the learner through the process of constructing a scatterplot.\nVideo 2\n\n\n\n\n3.3.3 Writing a script\nIn this video, Danielle recreates the exact same plot as last time, but uses a script, and explains a few weird concepts like “sourcing a script” and “printing a plot object”.\nVideo 3\n\n\n\n\n3.3.4 What are aesthetics?\nIn this video, Danielle explains aesthetics in the context of ggplot.\nVideo 4\n\n\n\n\n3.3.5 Aesthetics vs parameters\nIn this video, Danielle talks about aesthetics, the difference between aesthetics and parameters, and introduces concepts behind plot layers.\nVideo 5\n\n\n\n\n3.3.6 Global and local\nIn this video, Danielle shows you that even R experts suffer from technical failures! She also talks about global and local mappings in ggplot.\nVideo 6\n\n\n\n\n3.3.7 Named and unnamed argument\nIn this video, Danielle discusses named and unnamed arguments in R.\nVideo 7\n\n\n\n\n3.3.8 Facets and prettifying\nIn this video, Danielle shows you how to split plots using facets, and gives you some tips to make plots pretty.\nVideo 8"
   }
 ]
