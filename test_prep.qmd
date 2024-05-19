@@ -1,0 +1,125 @@
+---
+title: "test prep"
+format: html
+editor: visual
+---
+
+# PSYC 3361 coding self test
+
+You can't learn to code by watching someone else do it. The best way to check whether you are really understanding the coding modules is to try out your skills on a new dataset.
+
+Self test exercises related to the Week 1-3 coding modules are available in this [RStudio Cloud project](https://posit.cloud/content/5592952)
+
+### Week 1 module
+
+The RMarkdown + reading data module covers…
+
+-   RStudio and RMarkdown
+
+-   Reading data in
+
+-   %\>% group_by + summarise
+
+-   Write data to csv
+
+### Week 1 self test
+
+GestAge data
+
+-   Open a new Rmd file, customise
+
+-   Load packages
+
+-   Read the data frame into RStudio
+
+-   Calc mean separately by group1
+
+-   Calc min separately by group2
+
+-   Write notes with a URL link
+
+-   Insert a picture
+
+-   Write data to csv
+
+### Week 2 module
+
+The ggplot module covers…
+
+-   Basic point plots\*
+
+-   Colour\*
+
+-   Layers\*
+
+-   Jitter plot, Boxplot, Violins\*
+
+-   Facets\*
+
+-   Themes, scales, palettes\*
+
+### Week 2 self test
+
+dino data
+
+-   Reproduce the dino plot
+
+-   Make it pretty
+
+-   Challenge: get the descriptives to show that the M, variance, correlation the same
+
+### Week 3 module
+
+The dplyr module covers…
+
+-   Clean names
+
+-   Rename\*
+
+-   Filter\*
+
+-   Arrange
+
+-   Select\*
+
+-   Mutate\*
+
+-   Bind_rows\*
+
+-   Pivot
+
+-   Join\*
+
+    \*these concepts are assessed in Week 4 take home test
+
+### Week 3 self test
+
+-   Alone data
+
+-   Open new Rmd file, customize
+
+-   Load packages
+
+-   Read data
+
+-   Select and rename variables
+
+-   Arrange and slice
+
+-   Group_by summarise
+
+-   Point+line Plot w error bars
+
+-   Group by summarise
+
+-   Boxplot + jitter
+
+-   Mutate + casewhen
+
+-   Group_by summarise
+
+-   Filter, group_by, summarise
+
+-   Fct_relevel
+
+-   Column plot, position dodge
