@@ -13,6 +13,7 @@ book:
     - Week4.qmd
     - Week5.qmd
     - now-what.qmd
+    - documentation.qmd
 
 
 bibliography: references.bib
